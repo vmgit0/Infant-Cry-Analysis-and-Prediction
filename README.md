@@ -1,0 +1,78 @@
+## ⚠️ Notes
+
+- Recommended Python version: **3.10**
+- PyAudio may not work on Python 3.12+
+
+---
+
+# 🎧 Infant Cry Analysis and Prediction System
+
+An AI-powered Final Year Engineering Project to analyze infant cry audio and predict the reason (hunger, discomfort, pain, tiredness) using Machine Learning.
+
+---
+
+## 📌 Problem Statement
+
+Infants communicate through crying, but identifying the reason is difficult.  
+This project uses AI to classify cry sounds and assist caregivers.
+
+---
+
+## 🚀 Features
+
+- 🎤 Audio input (microphone / dataset)
+- 🔊 Noise reduction
+- 📊 MFCC feature extraction
+- 🤖 Random Forest classification
+- 📈 Audio visualization
+- 🧠 Cry prediction
+
+---
+
+## 🧠 Machine Learning Approach
+
+- Feature Extraction: MFCC (Mel Frequency Cepstral Coefficients)
+- Model: Random Forest Classifier
+- Evaluation: Accuracy, Confusion Matrix
+
+---
+
+## 🏗️ Project Structure
+
+Infant-Cry-Analysis-and-Prediction/
+├── audio_dataset/
+├── backend/
+│   ├── app.py
+│   └── Cry_Model.ipynb
+├── templates/
+├── requirements.txt
+└── README.md
+
+---
+
+## ⚙️ Setup Instructions
+
+git clone https://github.com/YOUR_USERNAME/Infant-Cry-Analysis-and-Prediction.git  
+cd Infant-Cry-Analysis-and-Prediction  
+
+python -m venv venv  
+venv\Scripts\activate  
+
+pip install -r requirements.txt  
+
+python backend/app.py  
+
+---
+
+## 📊 Tech Stack
+
+Python, Flask, NumPy, Pandas, Librosa, Scikit-learn, Matplotlib, Seaborn
+
+---
+
+
+## 🎯 Conclusion
+
+This project demonstrates how AI + audio processing can help understand infant needs and improve caregiving.
+
+---
