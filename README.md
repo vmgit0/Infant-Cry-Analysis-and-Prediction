@@ -25,7 +25,28 @@ This project uses AI to classify cry sounds and assist caregivers.
 - 📊 MFCC feature extraction
 - 🤖 Random Forest classification
 - 📈 Audio visualization
-- 🧠 Cry prediction
+- 🌐 Flask-based web application (localhost)
+- 🧠 Real-time prediction with probability distribution of cry reasons
+
+---
+
+## 🌐 Web Application (Flask)
+
+A web-based interface is developed using **Flask** that runs on **localhost**.
+
+### Features:
+- 🎙️ Record audio directly from microphone
+- 📂 Upload audio file option
+- ⚡ Real-time prediction
+- 📊 Displays probability distribution of different cry types (hungry, pain, tired, discomfort)
+
+### Run the app:
+
+python backend/app.py
+
+Then open in browser:
+
+http://127.0.0.1:5000/
 
 ---
 
@@ -33,6 +54,7 @@ This project uses AI to classify cry sounds and assist caregivers.
 
 - Feature Extraction: MFCC (Mel Frequency Cepstral Coefficients)
 - Model: Random Forest Classifier
+- Output: Predicted class + probability distribution
 - Evaluation: Accuracy, Confusion Matrix
 
 ---
@@ -75,4 +97,3 @@ Python, Flask, NumPy, Pandas, Librosa, Scikit-learn, Matplotlib, Seaborn
 
 This project demonstrates how AI + audio processing can help understand infant needs and improve caregiving.
 
----
