@@ -5,7 +5,7 @@
 
 ---
 
-# 🎧 Infant Cry Analysis and Prediction System
+# 🎧 Infant Cry Analysis and Prediction System - ACADEMIC PROJECT
 
 An AI-powered Final Year Engineering Project to analyze infant cry audio and predict the reason (hunger, discomfort, pain, tiredness) using Machine Learning.
 
