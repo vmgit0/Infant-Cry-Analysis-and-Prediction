@@ -92,8 +92,44 @@ Python, Flask, NumPy, Pandas, Librosa, Scikit-learn, Matplotlib, Seaborn
 
 ---
 
+## 📊 Results
 
-## 🎯 Conclusion
+* 🎯 **Model Accuracy: 90.47%**
+* ✅ Achieved high performance on test dataset
+* 📈 Model performs well across most classes with balanced predictions
 
-This project demonstrates how AI + audio processing can help understand infant needs and improve caregiving.
+### 🔍 Performance Highlights:
+
+* Strong precision and recall for:
+
+  * hungry
+  * burping
+  * belly_pain
+
+### 📉 Observations:
+
+* Some confusion observed between:
+
+  * discomfort ↔ tired
+* Minor misclassifications due to similarity in cry patterns
+
+### 📊 Sample Prediction Output:
+
+```id="b221kp"
+hungry: 82%
+tired: 10%
+burping: 5%
+discomfort: 2%
+belly_pain: 1%
+```
+
+### 📌 Confusion Matrix Insights:
+
+* High accuracy in identifying **hungry** and **burping**
+* Slight performance drop in **discomfort** class
+
+### 🎯 Final Outcome:
+
+The model successfully predicts infant cry reasons with **~90% accuracy** and provides probability-based outputs, making it useful for real-time caregiving assistance.
+
 
