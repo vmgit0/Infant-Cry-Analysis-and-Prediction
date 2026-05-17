@@ -72,6 +72,17 @@ Infant-Cry-Analysis-and-Prediction/
 
 ---
 
+## 📂 Dataset
+
+This project uses infant cry audio datasets from Kaggle.
+
+### Kaggle Dataset Links
+
+- 🔗 [https://www.kaggle.com/datasets/sanmithasadhish/infant-cry-dataset]
+- 🔗 [https://www.kaggle.com/datasets/mennaahmed23/baby-cry-sense-dataset]
+
+---
+
 ## ⚙️ Setup Instructions
 
 git clone https://github.com/YOUR_USERNAME/Infant-Cry-Analysis-and-Prediction.git  
